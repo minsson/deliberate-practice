@@ -13,6 +13,7 @@
 		FD51CD122858CD65001BC405 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD51CD102858CD65001BC405 /* Main.storyboard */; };
 		FD51CD142858CD67001BC405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD51CD132858CD67001BC405 /* Assets.xcassets */; };
 		FD51CD172858CD67001BC405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD51CD152858CD67001BC405 /* LaunchScreen.storyboard */; };
+		FD51CD272858D573001BC405 /* EmojiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD51CD262858D573001BC405 /* EmojiCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FD51CD132858CD67001BC405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD51CD162858CD67001BC405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD51CD182858CD67001BC405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD51CD262858D573001BC405 /* EmojiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,38 @@
 			children = (
 				FD51CD0A2858CD65001BC405 /* AppDelegate.swift */,
 				FD51CD0C2858CD65001BC405 /* SceneDelegate.swift */,
-				FD51CD0E2858CD65001BC405 /* ViewController.swift */,
-				FD51CD102858CD65001BC405 /* Main.storyboard */,
+				FD51CD232858D135001BC405 /* Models */,
+				FD51CD242858D13A001BC405 /* Views */,
+				FD51CD252858D13F001BC405 /* Controllers */,
 				FD51CD132858CD67001BC405 /* Assets.xcassets */,
 				FD51CD152858CD67001BC405 /* LaunchScreen.storyboard */,
 				FD51CD182858CD67001BC405 /* Info.plist */,
 			);
 			path = TableViewPractice;
+			sourceTree = "<group>";
+		};
+		FD51CD232858D135001BC405 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FD51CD242858D13A001BC405 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD51CD102858CD65001BC405 /* Main.storyboard */,
+				FD51CD262858D573001BC405 /* EmojiCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FD51CD252858D13F001BC405 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FD51CD0E2858CD65001BC405 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +167,7 @@
 			files = (
 				FD51CD0F2858CD65001BC405 /* ViewController.swift in Sources */,
 				FD51CD0B2858CD65001BC405 /* AppDelegate.swift in Sources */,
+				FD51CD272858D573001BC405 /* EmojiCell.swift in Sources */,
 				FD51CD0D2858CD65001BC405 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
