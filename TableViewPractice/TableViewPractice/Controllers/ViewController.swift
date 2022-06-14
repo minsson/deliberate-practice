@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource {
 
+    @IBOutlet weak var emojiLicenseLabel: UILabel!
     @IBOutlet weak var roleTableView: UITableView!
     
     var roleArray: [Role] = [
@@ -26,6 +27,13 @@ class ViewController: UIViewController, UITableViewDataSource {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        emojiLicenseLabel.text = """
+            All emojis designed by OpenMoji
+            – the open-source emoji and icon project.
+        """
+        emojiLicenseLabel.lineBreakMode = .byWordWrapping
+        emojiLicenseLabel.numberOfLines = 2
+        
         roleTableView.dataSource = self
         roleTableView.rowHeight = 120
     }
