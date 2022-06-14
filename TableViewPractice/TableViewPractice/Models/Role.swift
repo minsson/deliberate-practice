@@ -8,8 +8,8 @@
 import Foundation
 import UIKit
 
-struct Emoji {
-    let image: UIImage
+struct Role {
+    var image: UIImage?
     let name: String
     let description: String
 }
