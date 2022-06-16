@@ -2,7 +2,7 @@
 
 import UIKit
 
-final class RoleViewController: UIViewController, UITableViewDataSource {
+final class RoleViewController: UIViewController {
 
     @IBOutlet private weak var emojiLicenseLabel: UILabel!
     @IBOutlet private weak var roleTableView: UITableView!
@@ -32,6 +32,9 @@ final class RoleViewController: UIViewController, UITableViewDataSource {
         roleTableView.dataSource = self
         roleTableView.rowHeight = 120
     }
+}
+    
+extension RoleViewController: UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return roleArray.count
