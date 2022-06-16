@@ -15,6 +15,7 @@
 		FD51CD172858CD67001BC405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD51CD152858CD67001BC405 /* LaunchScreen.storyboard */; };
 		FD51CD272858D573001BC405 /* RoleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD51CD262858D573001BC405 /* RoleCell.swift */; };
 		FD51CD292858DEA5001BC405 /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD51CD282858DEA5001BC405 /* Role.swift */; };
+		FDC68BFB285B85C000804449 /* RoleDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC68BFA285B85C000804449 /* RoleDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FD51CD182858CD67001BC405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD51CD262858D573001BC405 /* RoleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleCell.swift; sourceTree = "<group>"; };
 		FD51CD282858DEA5001BC405 /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
+		FDC68BFA285B85C000804449 /* RoleDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				FD51CD282858DEA5001BC405 /* Role.swift */,
+				FDC68BFA285B85C000804449 /* RoleDataManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				FD51CD0B2858CD65001BC405 /* AppDelegate.swift in Sources */,
 				FD51CD272858D573001BC405 /* RoleCell.swift in Sources */,
 				FD51CD0D2858CD65001BC405 /* SceneDelegate.swift in Sources */,
+				FDC68BFB285B85C000804449 /* RoleDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
