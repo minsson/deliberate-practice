@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		FD51CD0B2858CD65001BC405 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD51CD0A2858CD65001BC405 /* AppDelegate.swift */; };
 		FD51CD0D2858CD65001BC405 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD51CD0C2858CD65001BC405 /* SceneDelegate.swift */; };
-		FD51CD0F2858CD65001BC405 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD51CD0E2858CD65001BC405 /* ViewController.swift */; };
+		FD51CD0F2858CD65001BC405 /* RoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD51CD0E2858CD65001BC405 /* RoleViewController.swift */; };
 		FD51CD122858CD65001BC405 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD51CD102858CD65001BC405 /* Main.storyboard */; };
 		FD51CD142858CD67001BC405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD51CD132858CD67001BC405 /* Assets.xcassets */; };
 		FD51CD172858CD67001BC405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD51CD152858CD67001BC405 /* LaunchScreen.storyboard */; };
-		FD51CD272858D573001BC405 /* EmojiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD51CD262858D573001BC405 /* EmojiCell.swift */; };
+		FD51CD272858D573001BC405 /* RoleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD51CD262858D573001BC405 /* RoleCell.swift */; };
 		FD51CD292858DEA5001BC405 /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD51CD282858DEA5001BC405 /* Role.swift */; };
 /* End PBXBuildFile section */
 
@@ -21,12 +21,12 @@
 		FD51CD072858CD65001BC405 /* TableViewPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD51CD0A2858CD65001BC405 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD51CD0C2858CD65001BC405 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FD51CD0E2858CD65001BC405 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD51CD0E2858CD65001BC405 /* RoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleViewController.swift; sourceTree = "<group>"; };
 		FD51CD112858CD65001BC405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD51CD132858CD67001BC405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD51CD162858CD67001BC405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD51CD182858CD67001BC405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD51CD262858D573001BC405 /* EmojiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCell.swift; sourceTree = "<group>"; };
+		FD51CD262858D573001BC405 /* RoleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleCell.swift; sourceTree = "<group>"; };
 		FD51CD282858DEA5001BC405 /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,7 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				FD51CD102858CD65001BC405 /* Main.storyboard */,
-				FD51CD262858D573001BC405 /* EmojiCell.swift */,
+				FD51CD262858D573001BC405 /* RoleCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -92,7 +92,7 @@
 		FD51CD252858D13F001BC405 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				FD51CD0E2858CD65001BC405 /* ViewController.swift */,
+				FD51CD0E2858CD65001BC405 /* RoleViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -169,9 +169,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD51CD292858DEA5001BC405 /* Role.swift in Sources */,
-				FD51CD0F2858CD65001BC405 /* ViewController.swift in Sources */,
+				FD51CD0F2858CD65001BC405 /* RoleViewController.swift in Sources */,
 				FD51CD0B2858CD65001BC405 /* AppDelegate.swift in Sources */,
-				FD51CD272858D573001BC405 /* EmojiCell.swift in Sources */,
+				FD51CD272858D573001BC405 /* RoleCell.swift in Sources */,
 				FD51CD0D2858CD65001BC405 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

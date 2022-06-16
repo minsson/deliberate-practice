@@ -1,18 +1,13 @@
-//
-//  ViewController.swift
-//  TableViewPractice
-//
 //  Created by minsson on 2022/06/14.
-//
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource {
+final class RoleViewController: UIViewController, UITableViewDataSource {
 
-    @IBOutlet weak var emojiLicenseLabel: UILabel!
-    @IBOutlet weak var roleTableView: UITableView!
+    @IBOutlet private weak var emojiLicenseLabel: UILabel!
+    @IBOutlet private weak var roleTableView: UITableView!
     
-    var roleArray: [Role] = [
+    private var roleArray: [Role] = [
         Role(image: UIImage(named: "astronaut.png"), name: "우주비행사", description: "우주를 비행해요"),
         Role(image: UIImage(named: "cook.png"), name: "요리사", description: "맛있는 요리를 해요"),
         Role(image: UIImage(named: "doctor.png"), name: "의사", description: "사람들을 치료해줘요"),
@@ -43,11 +38,11 @@ class ViewController: UIViewController, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = roleTableView.dequeueReusableCell(withIdentifier: "RoleCell", for: indexPath) as! EmojiCell
+        let cell = roleTableView.dequeueReusableCell(withIdentifier: "RoleCell", for: indexPath) as! RoleCell
         
         let role = roleArray[indexPath.row]
         
-        cell.emojiImageView.image = role.image
+        cell.RoleImageView.image = role.image
         cell.nameLabel.text = role.name
         cell.descriptionLabel.text = role.description
         

@@ -1,17 +1,12 @@
-//
-//  MovieCell.swift
-//  TableViewPractice
-//
 //  Created by minsson on 2022/06/14.
-//
 
 import UIKit
 
-class EmojiCell: UITableViewCell {
+final class RoleCell: UITableViewCell {
 
-    @IBOutlet weak var emojiImageView: UIImageView!
-    @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet private(set) weak var RoleImageView: UIImageView!
+    @IBOutlet private(set) weak var nameLabel: UILabel!
+    @IBOutlet private(set) weak var descriptionLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
