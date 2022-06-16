@@ -32,7 +32,7 @@ class ViewController: UIViewController, UITableViewDataSource {
             – the open-source emoji and icon project.
         """
         emojiLicenseLabel.lineBreakMode = .byWordWrapping
-        emojiLicenseLabel.numberOfLines = 2
+        emojiLicenseLabel.numberOfLines = 0
         
         roleTableView.dataSource = self
         roleTableView.rowHeight = 120
