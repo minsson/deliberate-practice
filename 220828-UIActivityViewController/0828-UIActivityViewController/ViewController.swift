@@ -38,6 +38,7 @@ final class ViewController: UIViewController {
     
     @objc private func presentActivityView() {
         var shareObject: [Any] = []
+        
         shareObject.append(textToShare)
         
         let activityViewController = UIActivityViewController(
