@@ -13,6 +13,7 @@
 		FDD7CDA828BE816300B235E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD7CDA628BE816300B235E2 /* Main.storyboard */; };
 		FDD7CDAA28BE816500B235E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD7CDA928BE816500B235E2 /* Assets.xcassets */; };
 		FDD7CDAD28BE816500B235E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD7CDAB28BE816500B235E2 /* LaunchScreen.storyboard */; };
+		FDD7CDB728BF444600B235E2 /* OpenWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD7CDB628BF444600B235E2 /* OpenWeather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FDD7CDA928BE816500B235E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDD7CDAC28BE816500B235E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDD7CDAE28BE816500B235E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD7CDB628BF444600B235E2 /* OpenWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				FDD7CDA028BE816300B235E2 /* AppDelegate.swift */,
 				FDD7CDA228BE816300B235E2 /* SceneDelegate.swift */,
 				FDD7CDA428BE816300B235E2 /* ViewController.swift */,
+				FDD7CDB628BF444600B235E2 /* OpenWeather.swift */,
 				FDD7CDA628BE816300B235E2 /* Main.storyboard */,
 				FDD7CDA928BE816500B235E2 /* Assets.xcassets */,
 				FDD7CDAB28BE816500B235E2 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				FDD7CDA528BE816300B235E2 /* ViewController.swift in Sources */,
 				FDD7CDA128BE816300B235E2 /* AppDelegate.swift in Sources */,
+				FDD7CDB728BF444600B235E2 /* OpenWeather.swift in Sources */,
 				FDD7CDA328BE816300B235E2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
